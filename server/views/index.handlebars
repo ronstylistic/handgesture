@@ -1,0 +1,10 @@
+<div class="container">
+    <p>Ronnel</p>
+
+    {{#each data as |obj|}}
+    <div class="row" onclick="process({{id}})">
+        <div> {{obj.name}}</div>
+        <div> {{obj.price}}</div>
+    </div>
+    {{/each}}
+</div>
